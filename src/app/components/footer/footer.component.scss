@@ -1,0 +1,51 @@
+.footer {
+  min-height: 50vh;
+  background-color: var(--Dark-moderate-cyan);
+  text-align: center;
+  color: var(--Dark-desaturated-cyan);
+}
+
+.footer img {
+  margin-bottom: 70px;
+  width: 150px;
+  filter: brightness(0) saturate(100%) invert(26%) sepia(53%) saturate(408%) hue-rotate(116deg) brightness(94%) contrast(91%);
+}
+
+.footer-menu {
+  list-style: none;
+  justify-content: center;
+  gap: 65px;
+  padding: 0;
+
+}
+
+.footer-menu>li {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-menu>li:hover {
+  color: var(--White);
+}
+
+
+
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.social svg {
+
+  height: 20px;
+  cursor: pointer;
+
+}
+
+.social svg:hover {
+  color: var(--White);
+  //border-color: var(--Bright-Blue);
+}

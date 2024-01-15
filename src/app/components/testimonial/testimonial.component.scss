@@ -1,0 +1,20 @@
+.card {
+  text-align: center;
+  border: none;
+}
+
+.card img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.card .card-body {
+  margin-bottom: 20px;
+}
+
+.card .profile span {
+  font-size: 14px;
+  color: var(--Grayish-blue);
+}

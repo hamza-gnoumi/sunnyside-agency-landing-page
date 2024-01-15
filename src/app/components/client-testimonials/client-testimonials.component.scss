@@ -1,0 +1,13 @@
+.testimonials {
+  min-height: 100vh;
+}
+
+.testimonials h3 {
+  color: var(--Dark-grayish-blue);
+  letter-spacing: clamp(3px, 1vw, 5px);
+  font-size: clamp(18px, 4vw, 28px);
+}
+
+app-testimonial {
+  margin-bottom: 80px;
+}

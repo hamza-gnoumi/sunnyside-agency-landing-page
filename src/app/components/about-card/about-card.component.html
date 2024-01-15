@@ -1,0 +1,17 @@
+<div class="about d-flex justify-content align-items-center flex-wrap ">
+
+  <div class="box col-12 col-lg-6  text-center text-lg-start" [ngClass]="reverse ? 'order-lg-1 order-2' : 'order-2'">
+    <div class="info col-12 col-lg-6 m-auto">
+      <h2 class="fs-xl">{{article.title}}</h2>
+      <p>{{article.content}} </p>
+      <a href=" #" [ngClass]="reverse ?'yellow':'soft-red'">Learn more</a>
+
+    </div>
+
+  </div>
+  <picture [ngClass]="reverse ? 'order-lg-2 order-1' : 'order-1'" class="col-12 col-lg-6">
+    <source media="(min-width: 992)" [srcset]="article.desktopImage">
+    <img [src]="article.mobileImage" alt="image-transform">
+  </picture>
+
+</div>

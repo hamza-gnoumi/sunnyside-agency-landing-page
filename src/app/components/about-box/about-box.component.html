@@ -1,0 +1,11 @@
+<div class="box d-flex flex-column justify-content-end text-center p-5">
+  <picture>
+    <source media="(min-width: 992px)" [srcset]="article.desktopImage">
+    <img [src]="article.mobileImage" alt="back">
+  </picture>
+  <div>
+    <h3 [class]="color">{{article.title}}</h3>
+    <p [class]="color">{{article.content}}</p>
+  </div>
+
+</div>

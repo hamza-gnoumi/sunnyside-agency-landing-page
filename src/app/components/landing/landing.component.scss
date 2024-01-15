@@ -1,0 +1,51 @@
+.landing {
+  min-height: calc(100vh - 72px);
+  position: relative;
+
+}
+
+picture {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+
+
+picture>img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.creatives {
+  padding-top: 70px;
+  font-size: calc(2rem + 1.5vw) !important;
+  color: var(--White);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 100px;
+}
+
+.landing .arrow {
+  width: clamp(48px, 4vw, 64px);
+  position: relative;
+  animation: arrow-animation 1.5s linear infinite;
+}
+
+@keyframes arrow-animation {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 100px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
